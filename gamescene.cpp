@@ -223,7 +223,7 @@ void GameScene::updateInformation()
     powerinfor->setFixedSize(500,100);
     powerinfor->setText("Power:"+QString::number(player.power)+"/5.0"+"\n"+"Score:"+QString::number(score));
     timeinfor->setParent(this);
-    timeinfor->move(2300,0);
+    timeinfor->move(1200,0);
     timeinfor->setFixedSize(500,200);
     timeinfor->setText("Time:"+QString::number(clock));
     QFont ft;
